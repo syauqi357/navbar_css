@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* delete this element to take the bar left */
+  /* .center--body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200%;
+  } */
+
+  /* use from this element to anthing inside of it */
+
+  .side-handle {
+    background-color: rgb(45, 45, 45);
+    width: 60px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    box-shadow: 2px 8px 24px -5px rgba(0,0,0,0.61);
+-webkit-box-shadow: 2px 8px 24px -5px rgba(0,0,0,0.61);
+-moz-box-shadow: 2px 8px 24px -5px rgba(0,0,0,0.61);
+  }
+
+  .handler--container {
+    padding: 2rem;
+    padding-top: 0;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    list-style: none;
+  }
+
+  .box {
+    width: 9px;
+    height: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  button {
+    padding: 12px;
+    background-color: transparent;
+    color: #8e8e8e;
+    border: none;
+    border-radius: 4.3px;
+    margin: 0.3px;
+    transition: 0.2s ease;
+  }
+
+  button:hover {
+    background-color: rgb(34, 34, 34);
+    transform: translateX(4px);
+    color: #cfcfcf;
+  }
+
+  button:focus {
+    border: #696969 1.2px solid;
+    background-color: #353535;
+    color: #f5f5f5;
+  }
+
+  .dot--control {
+    height: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
