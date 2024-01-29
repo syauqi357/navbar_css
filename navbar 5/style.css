@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+  background-color: #f2f2f2;
+  padding: 15px 17px 15px 17px;
+  position: fixed;
+  width: 100%;
+  box-shadow: 2px 1px 13px -8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 1px 13px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 1px 13px -8px rgba(0, 0, 0, 0.75);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftWrapper {
+  display: flex;
+  gap: 42px;
+  align-items: center;
+}
+
+.sideActive {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.menuSidebaracivator svg {
+  width: 34px;
+  height: 34px;
+}
+.logo__yt svg {
+  width: 100px;
+}
+
+.searchbar-Wrapper {
+  border: #aaaaaa 0.3px solid;
+  border-radius: 4px;
+
+  display: flex;
+  padding: 2px;
+  align-items: center;
+  height: 40px;
+}
+
+.icon__search {
+  width: 32px;
+  height: 32px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon__search svg {
+  fill: #a8a8a8;
+}
+
+.searchbar-Wrapper input {
+  padding: 0px 12px;
+  width: 370.98px;
+  background-color: transparent;
+  border: none;
+
+  outline: none;
+}
+
+.searchbar-Wrapper input::placeholder {
+  font-weight: 600;
+}
+
+.rightWrapper-element {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.helper button {
+  border: none;
+  border-radius: 50px;
+  width: 34px;
+  height: 34px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.helper svg {
+  width: 100px;
+}
+
+.uploadBtn button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 7px 3px 7px;
+  font-weight: 600;
+  border: #c6c6c6 0.5px solid;
+  border-radius: 1.89px;
+}
+
+.upload__icon svg {
+  width: 25px;
+  fill: #ce0505;
+}
+
+.pictureBox-wrapper {
+  width: 34px;
+  height: 34px;
+  border-radius: 50px;
+  background-color: #c6c6c6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.pictureBox-wrapper img {
+  width: 100%;
+}
+
+.profilebox {
+  width: 30px;
+}
+
+.profilebox button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+}
+
+.profilebox button:focus {
+  border: #0a0a0a 0.5px solid;
+}
+
+@media only screen and (max-width: 600px) {
+  .menuSidebaracivator svg {
+    width: 34px;
+    height: 34px;
+  }
+  .logo__yt svg {
+    width: 60px;
+  }
+
+  .leftWrapper {
+    display: flex;
+    gap: 13px;
+    align-items: center;
+  }
+
+  .searchbar-Wrapper input {
+    padding: 0px 12px;
+    width: 170.98px;
+    background-color: transparent;
+    border: none;
+
+    outline: none;
+  }
+}
