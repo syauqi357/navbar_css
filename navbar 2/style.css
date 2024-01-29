@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  height: 4000px;
+}
+
+.navbar--container {
+  background-color: #415a77;
+  padding: 1.5rem;
+  border-left: #e0e1dd 8.7px solid;
+  position: fixed;
+  width: 100%;
+  box-shadow: -1px 3px 17px -7px rgba(0, 0, 0, 0.67);
+  -webkit-box-shadow: -1px 3px 17px -7px rgba(0, 0, 0, 0.67);
+  -moz-box-shadow: -1px 3px 17px -7px rgba(0, 0, 0, 0.67);
+}
+
+.navbar--menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.menu--nav ul {
+  display: flex;
+  gap: 1.2rem;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu--nav a {
+  text-decoration: none;
+  color: #e0e1dd;
+  transition: 0.2s ease;
+}
+
+.menu--nav a:hover {
+  font-size: 19px;
+}
+
+.image--nav img {
+  width: 40px;
+  transition: 0.2s ease;
+}
+
+.image--nav img:hover {
+  transform: translateX(3.5px);
+}
+
+.action--btn {
+  display: flex;
+  align-items: center;
+  gap: 1.3rem;
+}
+
+.action--btn a {
+  text-decoration: none;
+  color: black;
+}
+
+.action--btn button {
+  padding: 9px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 4.9px;
+  border: none;
+  outline: none;
+  transition: 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: #e0e1dd;
+}
+
+.action--btn button:hover {
+  color: #e0e1dd;
+  background-color: #0d1b2a;
+}
